@@ -1,0 +1,9 @@
+# Configuration file for DatasetGenerator
+
+dataset_name: cifar10  # Options: cifar10, imagenet, mnist
+root: "./data"          # Directory path for saving/loading the dataset
+batch_size: 32          # Batch size for DataLoader
+subset_size: 10         # Number of samples in the subset (None for full dataset)
+image_size:              # Target image size for resizing (width, height)
+  - 224
+  - 224
